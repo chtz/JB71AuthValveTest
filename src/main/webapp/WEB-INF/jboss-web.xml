@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-web>  
+    <security-domain>myDomain</security-domain>
+	<valve>  
+        <class-name>ch.furthermore.jboss711.auth.AuthenticationTokenHeaderAuthenticator</class-name>  
+    </valve>
+</jboss-web>  
